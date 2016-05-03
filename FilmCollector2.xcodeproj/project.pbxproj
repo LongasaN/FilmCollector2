@@ -13,6 +13,10 @@
 		3F6D9D9C1CD926F800B1E066 /* FilmCollector2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D9D9A1CD926F800B1E066 /* FilmCollector2.xcdatamodeld */; };
 		3F6D9D9E1CD926F800B1E066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6D9D9D1CD926F800B1E066 /* Assets.xcassets */; };
 		3F6D9DA11CD926F800B1E066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6D9D9F1CD926F800B1E066 /* LaunchScreen.storyboard */; };
+		3F6D9DA91CD9281F00B1E066 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D9DA81CD9281F00B1E066 /* MovieTableViewController.swift */; };
+		3F6D9DAC1CD9290300B1E066 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D9DAA1CD9290300B1E066 /* Movie+CoreDataProperties.swift */; };
+		3F6D9DAD1CD9290300B1E066 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D9DAB1CD9290300B1E066 /* Movie.swift */; };
+		3F6D9DAF1CD92DFC00B1E066 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D9DAE1CD92DFC00B1E066 /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3F6D9D9D1CD926F800B1E066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F6D9DA01CD926F800B1E066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F6D9DA21CD926F800B1E066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6D9DA81CD9281F00B1E066 /* MovieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		3F6D9DAA1CD9290300B1E066 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F6D9DAB1CD9290300B1E066 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		3F6D9DAE1CD92DFC00B1E066 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 		3F6D9D921CD926F700B1E066 /* FilmCollector2 */ = {
 			isa = PBXGroup;
 			children = (
+				3F6D9DAA1CD9290300B1E066 /* Movie+CoreDataProperties.swift */,
+				3F6D9DAB1CD9290300B1E066 /* Movie.swift */,
 				3F6D9D931CD926F800B1E066 /* AppDelegate.swift */,
 				3F6D9D951CD926F800B1E066 /* ViewController.swift */,
 				3F6D9D971CD926F800B1E066 /* Main.storyboard */,
+				3F6D9DAE1CD92DFC00B1E066 /* MovieDetailViewController.swift */,
+				3F6D9DA81CD9281F00B1E066 /* MovieTableViewController.swift */,
 				3F6D9D9D1CD926F800B1E066 /* Assets.xcassets */,
 				3F6D9D9F1CD926F800B1E066 /* LaunchScreen.storyboard */,
 				3F6D9DA21CD926F800B1E066 /* Info.plist */,
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6D9DA91CD9281F00B1E066 /* MovieTableViewController.swift in Sources */,
+				3F6D9DAC1CD9290300B1E066 /* Movie+CoreDataProperties.swift in Sources */,
+				3F6D9DAD1CD9290300B1E066 /* Movie.swift in Sources */,
 				3F6D9D961CD926F800B1E066 /* ViewController.swift in Sources */,
+				3F6D9DAF1CD92DFC00B1E066 /* MovieDetailViewController.swift in Sources */,
 				3F6D9D9C1CD926F800B1E066 /* FilmCollector2.xcdatamodeld in Sources */,
 				3F6D9D941CD926F800B1E066 /* AppDelegate.swift in Sources */,
 			);
@@ -288,6 +304,7 @@
 				3F6D9DA71CD926F800B1E066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
